@@ -17,6 +17,8 @@ M.user = {
     ["hrsh7th/cmp-nvim-lsp"] = {
         after = "LuaSnip",
     },
+
+    ["github/copilot.vim"] = {},
 }
 
 M.override = { }

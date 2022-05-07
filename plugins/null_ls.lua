@@ -10,7 +10,7 @@ local options = {
     -- debug = true,
 
     sources = {
-        b.formatting.prettierd,
+        -- b.formatting.prettierd,
 
         -- Rust
         b.formatting.rustfmt.with { extra_args = { "--edition 2021" } },
@@ -20,8 +20,8 @@ local options = {
         -- b.diagnostics.luacheck.with { extra_args = { "--global vim" } },
 
         -- Shell
-        b.formatting.shfmt,
-        b.diagnostics.shellcheck.with { diagnostics_format = "#{m} [#{c}]" },
+        -- b.formatting.shfmt,
+        -- b.diagnostics.shellcheck.with { diagnostics_format = "#{m} [#{c}]" },
     },
 
     -- format on save
